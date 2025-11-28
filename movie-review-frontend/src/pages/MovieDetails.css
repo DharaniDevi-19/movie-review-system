@@ -1,0 +1,117 @@
+.movie-details-container {
+  padding: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.poster-details-wrapper {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.movie-poster {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.details-container h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.review-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.review-form input,
+.review-form textarea {
+  padding: 10px;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #6b5a5a;
+}
+
+.review-form button {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.review-form button:hover {
+  background-color: #ffb347;
+  color: black;
+}
+
+.reviews-section {
+  margin-top: 30px;
+}
+
+.review-card {
+  padding: 15px;
+  background-color: #ebe5e5;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.like-dislike-container {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.like-button,
+.dislike-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: #2d2d2d;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.like-button:hover {
+  background-color: #3cb371; /* modern soft green */
+  transform: translateY(-1px);
+}
+
+.dislike-button:hover {
+  background-color: #e57373; /* modern soft red */
+  transform: translateY(-1px);
+}
+
+.like-button.active {
+  background-color: #3cb371;
+  transform: scale(1.05);
+}
+
+.dislike-button.active {
+  background-color: #e57373;
+  transform: scale(1.05);
+}

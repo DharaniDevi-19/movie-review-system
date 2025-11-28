@@ -1,0 +1,15 @@
+# Frontend
+movie-review-frontend/node_modules/
+movie-review-frontend/build/
+movie-review-frontend/dist/
+movie-review-frontend/.env
+
+# Backend
+movie-review-backend/target/
+movie-review-backend/.idea/
+movie-review-backend/*.iml
+movie-review-backend/*.log
+
+# OS files
+.DS_Store
+Thumbs.db

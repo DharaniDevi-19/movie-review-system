@@ -1,0 +1,14 @@
+com\aptpath\task2\dto\RegisterRequest.class
+com\aptpath\task2\dto\LoginResponse.class
+com\aptpath\task2\util\JwtUtil.class
+com\aptpath\task2\config\AppConfig.class
+com\aptpath\task2\controller\AuthController.class
+com\aptpath\task2\entity\User.class
+com\aptpath\task2\dto\LoginRequest.class
+com\aptpath\task2\entity\Role.class
+com\aptpath\task2\entity\User$UserBuilder.class
+com\aptpath\task2\service\AuthService.class
+com\aptpath\task2\repository\UserRepository.class
+com\aptpath\task2\Task2Application.class
+com\aptpath\task2\security\SecurityConfig.class
+com\aptpath\task2\dto\RegisterResponse.class
