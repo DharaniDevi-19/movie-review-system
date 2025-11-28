@@ -75,4 +75,9 @@
 * *Test every module* with Postman.
 * Use *Git* for version control and clean commits.
 * (Optional) Use *Swagger UI* for documentation.
-*
+
+
+## 🎥 Project Demo Video  
+Click below to watch the full demonstration of the Movie Review System:
+
+➡️ [Watch Demo Video](https://drive.google.com/file/d/136mI5VoKt-Vsz0zPCWVWzZPiuWI2BN83/view?usp=drive_link)
